@@ -6,7 +6,7 @@ API 서버에 요청하여 검색결과를 가져와 줍니다.
 
 ## 사용법
 ```python
-kostdict = KoreanStandardDictionary(apiKey='5BA1D3A1F88DA29D1830108D684FC952')
+kostdict = KoreanStandardDictionary(apiKey='발급받은 API키')
 a = kostdict.search(q="미분", num=12, target='원어', pos='수사')
 print(a)
 
