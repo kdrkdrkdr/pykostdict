@@ -12,7 +12,9 @@ setup(
     url = 'https://github.com/kdrkdrkdr/pykostdict',
     packages = find_packages(),
     classifiers = [
-        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
         'License :: OSI Approved :: GNU GENERAL PUBLIC LICENSE',
         'Operating System :: OS Independent'
     ],
